@@ -1,4 +1,7 @@
 
+import sys
+print(sys.getdefaultencoding())
+
 import pandas as pd
 
 df = pd.read_csv('rawData.csv')
